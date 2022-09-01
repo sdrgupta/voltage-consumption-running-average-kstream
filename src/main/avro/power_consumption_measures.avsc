@@ -1,0 +1,43 @@
+{
+  "type": "record",
+  "namespace": "com.onlyagricare.avro",
+  "name": "PowerConsumptionMeasures",
+  "fields": [
+    {
+      "name": "date",
+      "type": "string"
+    },
+    {
+      "name": "time",
+      "type": "string"
+    },
+    {
+      "name": "global_active_power",
+      "type": "double"
+    },
+    {
+      "name": "global_reactive_power",
+      "type": "double"
+    },
+    {
+      "name": "voltage",
+      "type": "double"
+    },
+    {
+      "name": "global_intensity",
+      "type": "double"
+    },
+    {
+      "name": "sub_metering1",
+      "type": "double"
+    },
+    {
+      "name": "sub_metering2",
+      "type": "double"
+    },
+    {
+      "name": "sub_metering3",
+      "type": "double"
+    }
+  ]
+}
