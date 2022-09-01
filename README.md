@@ -7,7 +7,7 @@ This app contains three services.
 ```NOTE``` **For more information look at the design diagram.**
 
 ## Design Diagram
-![Design Diagram](https://github.com/krishna8git/voltage-consumption-running-average-kafka-streams/blob/master/running_average_voltage_design_diagram.png)
+![Design Diagram](https://github.com/sdrgupta/voltage-consumption-running-average-kstream/blob/main/running_average_voltage_design_diagram.png)
 
 All the topics are associated with the avro schema stored in the confluent schema registry.
 
