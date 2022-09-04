@@ -15,7 +15,7 @@ All the topics are associated with the avro schema stored in the confluent schem
 Follow below steps to setup local development environment.
 1. Checkout source code in a directory of your choice using the following command.
     ```shell
-    git clone https://github.com/krishna8git/voltage-consumption-running-average-kafka-streams.git 
+    git clone https://github.com/sdrgupta/voltage-consumption-running-average-kafka-streams.git 
     ```
 2. Run ```gradlew clean build``` so that the avro based source files are generated. This can be done after importing the project as well.
 3. Import as a gradle project in any IDE of your choice.
